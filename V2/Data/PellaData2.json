@@ -1,0 +1,374 @@
+[
+    {
+        "question": "How do I invite my bot created with Pella.app to my Discord server?",
+        "answer": "To invite your bot to your Discord server, navigate to the bot settings in Pella.app, generate an invite link, and use it to add the bot to your desired server.",
+        "context": "Bot Invitation",
+        "tags": ["invite", "Discord server", "bot management"]
+    },
+    {
+        "question": "What is the maximum number of commands I can create with Pella.app?",
+        "answer": "Pella.app allows users to create an unlimited number of commands, though certain plans may have limitations on advanced features.",
+        "context": "Commands Limit",
+        "tags": ["commands", "limits", "features"]
+    },
+    {
+        "question": "Does Pella.app have a mobile app?",
+        "answer": "Currently, Pella.app does not have a dedicated mobile app but can be accessed through mobile browsers for management.",
+        "context": "Mobile Access",
+        "tags": ["mobile", "app", "browser"]
+    },
+    {
+        "question": "Can I use Pella.app for gaming-related bots?",
+        "answer": "Yes, Pella.app is suitable for creating gaming-related bots, offering features like game stats tracking and community engagement tools.",
+        "context": "Gaming Bots",
+        "tags": ["gaming", "community", "stats"]
+    },
+    {
+        "question": "Is user authentication supported in Pella.app bots?",
+        "answer": "Yes, Pella.app supports user authentication, allowing bot developers to implement secure login systems for users.",
+        "context": "User Authentication",
+        "tags": ["authentication", "security", "users"]
+    },
+    {
+        "question": "What kind of databases can I use with Pella.app?",
+        "answer": "Pella.app supports several database options, including SQLite and MongoDB, for storing user data and bot settings.",
+        "context": "Database Support",
+        "tags": ["databases", "SQLite", "MongoDB"]
+    },
+    {
+        "question": "Can Pella.app bots respond to reactions?",
+        "answer": "Yes, bots created with Pella.app can be programmed to respond to user reactions on messages, enhancing interactivity.",
+        "context": "Reactions",
+        "tags": ["reactions", "interactivity", "bots"]
+    },
+    {
+        "question": "Are there templates available for common bot functionalities in Pella.app?",
+        "answer": "Yes, Pella.app provides templates for various common bot functionalities, making it easier for users to get started.",
+        "context": "Bot Templates",
+        "tags": ["templates", "common functionalities", "easy setup"]
+    },
+    {
+        "question": "How do I manage permissions for my bot on Discord?",
+        "answer": "You can manage your bot's permissions by adjusting the settings in Pella.app and configuring them in the Discord server settings.",
+        "context": "Permissions Management",
+        "tags": ["permissions", "management", "Discord"]
+    },
+    {
+        "question": "Does Pella.app support slash commands?",
+        "answer": "Yes, Pella.app supports slash commands, allowing users to interact with bots using a simple command format.",
+        "context": "Slash Commands",
+        "tags": ["slash commands", "user interaction", "bot commands"]
+    },
+    {
+        "question": "Can I schedule events with my Pella.app bot?",
+        "answer": "Yes, you can schedule events such as reminders and announcements using the scheduling features available in Pella.app.",
+        "context": "Event Scheduling",
+        "tags": ["scheduling", "events", "reminders"]
+    },
+    {
+        "question": "What is the process for updating my bot's code in Pella.app?",
+        "answer": "To update your bot's code, simply navigate to the bot's code editor in Pella.app, make your changes, and save them.",
+        "context": "Code Updates",
+        "tags": ["code editor", "updates", "bot management"]
+    },
+    {
+        "question": "Can Pella.app bots interact with users privately?",
+        "answer": "Yes, bots created with Pella.app can send direct messages to users, allowing for private interactions.",
+        "context": "Private Interactions",
+        "tags": ["DMs", "private chat", "user interaction"]
+    },
+    {
+        "question": "Is it possible to create a welcome message for new members using Pella.app?",
+        "answer": "Yes, you can set up a custom welcome message for new members joining your Discord server using Pella.app.",
+        "context": "Welcome Messages",
+        "tags": ["welcome", "messages", "new members"]
+    },
+    {
+        "question": "Does Pella.app allow for multi-language support?",
+        "answer": "Yes, Pella.app can be configured to support multiple languages, making bots accessible to a wider audience.",
+        "context": "Multi-Language Support",
+        "tags": ["languages", "accessibility", "global reach"]
+    },
+    {
+        "question": "How can I monetize my bot created with Pella.app?",
+        "answer": "You can monetize your bot by offering premium features, subscriptions, or donations through platforms like Patreon.",
+        "context": "Monetization",
+        "tags": ["monetization", "premium features", "subscriptions"]
+    },
+    {
+        "question": "What analytics features are available in Pella.app?",
+        "answer": "Pella.app provides analytics features that allow you to track bot usage, user engagement, and performance metrics.",
+        "context": "Analytics",
+        "tags": ["analytics", "tracking", "performance"]
+    },
+    {
+        "question": "Can I create a help command for my bot using Pella.app?",
+        "answer": "Yes, you can create a help command that provides users with information about the available commands and features of your bot.",
+        "context": "Help Command",
+        "tags": ["help", "commands", "user assistance"]
+    },
+    {
+        "question": "Does Pella.app support webhooks?",
+        "answer": "Yes, Pella.app supports webhooks for real-time notifications and interactions with other applications.",
+        "context": "Webhooks",
+        "tags": ["webhooks", "notifications", "real-time"]
+    },
+    {
+        "question": "How do I test my bot before going live?",
+        "answer": "You can test your bot in a private server or use Pella.app's testing features to ensure everything works correctly before going live.",
+        "context": "Testing",
+        "tags": ["testing", "live", "private server"]
+    },
+    {
+        "question": "Can I customize the prefix for my commands in Pella.app?",
+        "answer": "Yes, you can customize the command prefix in Pella.app to fit your bot's theme or user preferences.",
+        "context": "Command Prefix",
+        "tags": ["prefix", "customization", "commands"]
+    },
+    {
+        "question": "What is the role of the dashboard in Pella.app?",
+        "answer": "The dashboard in Pella.app serves as the central hub for managing your bots, viewing analytics, and accessing various features.",
+        "context": "Dashboard",
+        "tags": ["dashboard", "management", "features"]
+    },
+    {
+        "question": "Are there any community resources for Pella.app users?",
+        "answer": "Yes, Pella.app has a community forum and Discord server where users can share tips, ask questions, and collaborate.",
+        "context": "Community Resources",
+        "tags": ["community", "forum", "collaboration"]
+    },
+    {
+        "question": "Can Pella.app bots handle reactions to messages?",
+        "answer": "Yes, you can program your Pella.app bots to respond to user reactions, adding an interactive element to your bot.",
+        "context": "Message Reactions",
+        "tags": ["reactions", "interactivity", "user engagement"]
+    },
+    {
+        "question": "Is there a limit on bot uptime with Pella.app?",
+        "answer": "No, Pella.app does not impose limits on bot uptime, allowing your bots to run continuously as long as the server is active.",
+        "context": "Bot Uptime",
+        "tags": ["uptime", "limits", "server"]
+    },
+    {
+        "question": "Can I set up custom error messages in Pella.app?",
+        "answer": "Yes, Pella.app allows you to customize error messages for your bot, improving user experience when something goes wrong.",
+        "context": "Error Handling",
+        "tags": ["error messages", "customization", "user experience"]
+    },
+    {
+        "question": "How can I ensure my bot is secure using Pella.app?",
+        "answer": "To ensure your bot's security, regularly update your code, use environment variables for sensitive data, and implement proper error handling.",
+        "context": "Security",
+        "tags": ["security", "best practices", "bot safety"]
+    },
+    {
+        "question": "Can I create polls with my Pella.app bot?",
+        "answer": "Yes, you can create interactive polls using commands in your Pella.app bot to engage your server members.",
+        "context": "Polls",
+        "tags": ["polls", "interaction", "engagement"]
+    },
+    {
+        "question": "Does Pella.app provide any built-in moderation tools?",
+        "answer": "Yes, Pella.app includes built-in moderation tools that allow you to manage user behavior and enforce server rules.",
+        "context": "Moderation Tools",
+        "tags": ["moderation", "tools", "user management"]
+    },
+    {
+        "question": "How can I implement a leveling system in my Pella.app bot?",
+        "answer": "You can implement a leveling system by tracking user activity and awarding experience points through commands in Pella.app.",
+        "context": "Leveling System",
+        "tags": ["leveling", "experience points", "user activity"]
+    },
+    {
+        "question": "Is there an API available for developers using Pella.app?",
+        "answer": "Yes, Pella.app provides an API that developers can use to extend bot functionalities and integrate with other services.",
+        "context": "API Access",
+        "tags": ["API", "development", "integration"]
+    },
+    {
+        "question": "Can Pella.app bots send multimedia messages?",
+        "answer": "Yes, Pella.app bots can send multimedia messages, including images, videos, and links, to enhance user interactions.",
+        "context": "Multimedia Messages",
+        "tags": ["multimedia", "messages", "user interaction"]
+    },
+    {
+        "question": "What should I do if my bot is not responding?",
+        "answer": "If your bot is not responding, check the bot's status in Pella.app, review your code for errors, and ensure the bot is online.",
+        "context": "Bot Issues",
+        "tags": ["not responding", "troubleshooting", "bot status"]
+    },
+    {
+        "question": "Can I customize the appearance of my bot's messages?",
+        "answer": "Yes, you can customize the appearance of your bot's messages using embeds and formatting options in Pella.app.",
+        "context": "Message Customization",
+        "tags": ["appearance", "customization", "embeds"]
+    },
+    {
+        "question": "How can I backup my bot's data in Pella.app?",
+        "answer": "You can backup your bot's data by exporting the data files from Pella.app and storing them securely.",
+        "context": "Data Backup",
+        "tags": ["backup", "data", "storage"]
+    },
+    {
+        "question": "What programming languages are supported by Pella.app?",
+        "answer": "Pella.app primarily supports JavaScript and Python for bot development, offering a wide range of libraries.",
+        "context": "Programming Languages",
+        "tags": ["programming", "JavaScript", "Python"]
+    },
+    {
+        "question": "Can Pella.app handle voice commands?",
+        "answer": "Yes, Pella.app can handle voice commands, enabling voice interactions for users through Discord voice channels.",
+        "context": "Voice Commands",
+        "tags": ["voice commands", "interaction", "Discord"]
+    },
+    {
+        "question": "Is there a way to implement timed commands in my bot?",
+        "answer": "Yes, you can implement timed commands using Pella.app's scheduling features to trigger actions at specific intervals.",
+        "context": "Timed Commands",
+        "tags": ["timed commands", "scheduling", "automation"]
+    },
+    {
+        "question": "How do I report bugs or issues with Pella.app?",
+        "answer": "You can report bugs or issues by submitting a ticket through the Pella.app support page or their Discord server.",
+        "context": "Bug Reporting",
+        "tags": ["bugs", "issues", "support"]
+    },
+    {
+        "question": "Can I create custom commands for games with Pella.app?",
+        "answer": "Yes, you can create custom commands tailored to your game’s needs using Pella.app's command editor.",
+        "context": "Custom Commands",
+        "tags": ["custom commands", "gaming", "command editor"]
+    },
+    {
+        "question": "Does Pella.app have support for Twitch integration?",
+        "answer": "Yes, Pella.app supports Twitch integration, allowing you to create commands that pull in data from Twitch streams.",
+        "context": "Twitch Integration",
+        "tags": ["Twitch", "integration", "streams"]
+    },
+    {
+        "question": "How can I delete a bot I created with Pella.app?",
+        "answer": "To delete a bot, navigate to the bot management section in Pella.app and select the option to remove the bot permanently.",
+        "context": "Bot Deletion",
+        "tags": ["deletion", "bot management", "permanent removal"]
+    },
+    {
+        "question": "Can I add games or trivia features to my bot?",
+        "answer": "Yes, you can add games or trivia features to your bot by using the game-related templates and command features in Pella.app.",
+        "context": "Games and Trivia",
+        "tags": ["games", "trivia", "features"]
+    },
+    {
+        "question": "Is there a community Discord for Pella.app users?",
+        "answer": "Yes, Pella.app has an official community Discord where users can share ideas, ask questions, and collaborate.",
+        "context": "Community Discord",
+        "tags": ["community", "Discord", "collaboration"]
+    },
+    {
+        "question": "How often are updates released for Pella.app?",
+        "answer": "Pella.app typically releases updates regularly, focusing on new features, bug fixes, and performance improvements.",
+        "context": "Updates",
+        "tags": ["updates", "features", "performance"]
+    },
+    {
+        "question": "What features are available in Pella.app's premium plan?",
+        "answer": "The premium plan includes advanced analytics, priority support, custom command limits, and exclusive templates.",
+        "context": "Premium Features",
+        "tags": ["premium", "features", "support"]
+    },
+    {
+        "question": "Can I implement a command cooldown in Pella.app?",
+        "answer": "Yes, you can set command cooldowns to prevent spamming and manage how often commands can be used.",
+        "context": "Command Cooldowns",
+        "tags": ["cooldowns", "command management", "spamming"]
+    },
+    {
+        "question": "Does Pella.app allow for OAuth integration?",
+        "answer": "Yes, Pella.app supports OAuth integration, enabling secure login systems for your bot users.",
+        "context": "OAuth Integration",
+        "tags": ["OAuth", "integration", "security"]
+    },
+    {
+        "question": "Can I create reminders with my bot?",
+        "answer": "Yes, you can create reminders using commands in your Pella.app bot, which will notify users at specified times.",
+        "context": "Reminders",
+        "tags": ["reminders", "notifications", "time-based"]
+    },
+    {
+        "question": "What troubleshooting steps should I take if my bot crashes?",
+        "answer": "If your bot crashes, check the error logs in Pella.app, ensure your code is up to date, and verify your server settings.",
+        "context": "Bot Troubleshooting",
+        "tags": ["troubleshooting", "crashes", "logs"]
+    },
+    {
+        "question": "Can I create a command that gives users roles?",
+        "answer": "Yes, you can create commands that manage user roles in your Discord server using Pella.app's role management features.",
+        "context": "Role Management",
+        "tags": ["roles", "management", "commands"]
+    },
+    {
+        "question": "Does Pella.app offer customer support?",
+        "answer": "Yes, Pella.app offers customer support through a ticket system and a community Discord for assistance.",
+        "context": "Customer Support",
+        "tags": ["support", "customer service", "help"]
+    },
+    {
+        "question": "Can I schedule recurring events with Pella.app?",
+        "answer": "Yes, you can schedule recurring events such as daily reminders or weekly announcements using the scheduling feature.",
+        "context": "Recurring Events",
+        "tags": ["scheduling", "recurring", "events"]
+    },
+    {
+        "question": "How can I customize the command response format in Pella.app?",
+        "answer": "You can customize command response formats using embed settings and message formatting options in Pella.app.",
+        "context": "Response Format",
+        "tags": ["customization", "responses", "embeds"]
+    },
+    {
+        "question": "Does Pella.app support custom emoji?",
+        "answer": "Yes, you can use custom emojis in your bot's messages and commands to enhance user engagement.",
+        "context": "Custom Emoji",
+        "tags": ["custom emoji", "engagement", "messages"]
+    },
+    {
+        "question": "How do I manage server logs with my bot?",
+        "answer": "You can manage server logs by configuring logging commands in Pella.app to keep track of important events.",
+        "context": "Server Logs",
+        "tags": ["logs", "management", "events"]
+    },
+    {
+        "question": "Can I set up a feedback system using Pella.app?",
+        "answer": "Yes, you can set up a feedback system where users can submit suggestions or reports through commands.",
+        "context": "Feedback System",
+        "tags": ["feedback", "system", "user input"]
+    },
+    {
+        "question": "What kind of events can my Pella.app bot handle?",
+        "answer": "Your Pella.app bot can handle events such as message reactions, user joins, and command triggers for various interactions.",
+        "context": "Event Handling",
+        "tags": ["events", "handling", "interactions"]
+    },
+    {
+        "question": "Can I create polls with Pella.app?",
+        "answer": "Yes, you can create polls to gather user opinions using Pella.app's polling commands.",
+        "context": "Polls",
+        "tags": ["polls", "user feedback", "opinions"]
+    },
+    {
+        "question": "Does Pella.app support multi-language bots?",
+        "answer": "Yes, you can create multi-language bots with Pella.app by configuring language settings and commands.",
+        "context": "Multi-language Support",
+        "tags": ["multi-language", "support", "configuration"]
+    },
+    {
+        "question": "How can I implement a welcome message for new users?",
+        "answer": "You can implement a welcome message by configuring the welcome command to trigger when new users join your server.",
+        "context": "Welcome Message",
+        "tags": ["welcome", "new users", "messages"]
+    },
+    {
+        "question": "Can I use webhooks with my Pella.app bot?",
+        "answer": "Yes, you can use webhooks to send messages to channels and perform actions based on external events.",
+        "context": "Webhooks",
+        "tags": ["webhooks", "external events", "integration"]
+    }
+]
