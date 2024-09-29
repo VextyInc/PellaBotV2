@@ -1,0 +1,585 @@
+
+[
+    {
+        "question": "What is Pella.app?",
+        "answer": "Pella.app is a platform offering free and premium hosting services for Discord bots and Minecraft servers.",
+        "context": "Overview",
+        "tags": ["Pella", "hosting", "Discord", "Minecraft"]
+    },
+    {
+        "question": "How do I host a Discord bot on Pella.app?",
+        "answer": "You can host a Discord bot by uploading your bot code via GitHub or as a .zip file through the Pella dashboard.",
+        "context": "Hosting Process",
+        "tags": ["hosting", "Discord bot", "upload"]
+    },
+    {
+        "question": "What are the benefits of using Pella's premium hosting?",
+        "answer": "Premium hosting offers enhanced features such as higher performance, increased uptime, and more resources for larger bots.",
+        "context": "Premium Features",
+        "tags": ["premium", "benefits", "performance"]
+    },
+    {
+        "question": "Is there a free option for hosting on Pella.app?",
+        "answer": "Yes, Pella.app provides free hosting options for smaller projects and testing.",
+        "context": "Free Hosting",
+        "tags": ["free", "hosting", "options"]
+    },
+    {
+        "question": "Can I integrate GitHub with Pella.app?",
+        "answer": "Yes, Pella.app allows integration with GitHub for easy management and updates of your bot.",
+        "context": "Integration",
+        "tags": ["GitHub", "integration", "management"]
+    },
+    {
+        "question": "What are the upload methods supported by Pella.app?",
+        "answer": "You can upload your bot code via GitHub integration or directly as a .zip file.",
+        "context": "Upload Methods",
+        "tags": ["upload", "methods", "code"]
+    },
+    {
+        "question": "Do I need an API key to use Pella.app?",
+        "answer": "No, Pella.app does not require external API keys for its core functionalities.",
+        "context": "API Keys",
+        "tags": ["API", "keys", "accessibility"]
+    },
+    {
+        "question": "What types of bots can I host on Pella.app?",
+        "answer": "You can host a variety of Discord bots, including moderation bots, game bots, and utility bots.",
+        "context": "Bot Types",
+        "tags": ["bot types", "Discord", "variety"]
+    },
+    {
+        "question": "What support does Pella.app offer?",
+        "answer": "Pella.app provides community support through forums and documentation, along with premium customer support options.",
+        "context": "Support",
+        "tags": ["support", "community", "documentation"]
+    },
+    {
+        "question": "Can I scale my bot on Pella.app?",
+        "answer": "Yes, Pella.app allows you to scale your bot with premium hosting options that provide more resources.",
+        "context": "Scaling",
+        "tags": ["scaling", "resources", "premium"]
+    },
+    {
+        "question": "How does Pella.app ensure uptime?",
+        "answer": "Pella.app guarantees uptime through reliable server infrastructure and offers higher uptime with premium plans.",
+        "context": "Uptime",
+        "tags": ["uptime", "reliability", "infrastructure"]
+    },
+    {
+        "question": "What payment options are available for premium plans?",
+        "answer": "Pella.app accepts various payment methods, including credit cards and PayPal, for premium plans.",
+        "context": "Payment",
+        "tags": ["payment", "premium", "options"]
+    },
+    {
+        "question": "How do I troubleshoot my bot on Pella.app?",
+        "answer": "You can troubleshoot your bot by checking logs in the dashboard, reviewing documentation, or seeking help in the community forums.",
+        "context": "Troubleshooting",
+        "tags": ["troubleshoot", "logs", "community"]
+    },
+    {
+        "question": "Are there any limits on the free hosting plan?",
+        "answer": "Yes, the free hosting plan may have limitations on performance, uptime, and resource allocation compared to premium plans.",
+        "context": "Free Hosting Limitations",
+        "tags": ["limits", "free", "hosting"]
+    },
+    {
+        "question": "Can I host multiple bots on Pella.app?",
+        "answer": "Yes, you can host multiple bots on Pella.app, especially with premium plans that provide additional resources.",
+        "context": "Multiple Bots",
+        "tags": ["multiple", "bots", "hosting"]
+    },
+    {
+        "question": "What should I do if my bot goes offline?",
+        "answer": "If your bot goes offline, check the dashboard for any errors, ensure your code is running correctly, and consult the support resources if needed.",
+        "context": "Bot Offline",
+        "tags": ["offline", "check", "errors"]
+    },
+    {
+        "question": "Is Pella.app suitable for game developers?",
+        "answer": "Yes, Pella.app is suitable for game developers looking to host bots for gaming communities and interactive experiences.",
+        "context": "Game Developers",
+        "tags": ["game developers", "suitability", "hosting"]
+    },
+    {
+        "question": "What are the security features of Pella.app?",
+        "answer": "Pella.app offers advanced security features for premium users, including data encryption and secure access controls.",
+        "context": "Security",
+        "tags": ["security", "features", "premium"]
+    },
+    {
+        "question": "How can I cancel my premium subscription?",
+        "answer": "You can cancel your premium subscription at any time through your account settings in the Pella.app dashboard.",
+        "context": "Cancellation",
+        "tags": ["cancel", "subscription", "settings"]
+    },
+    {
+        "question": "What languages can I use to develop my bot?",
+        "answer": "You can use various programming languages to develop your bot, including JavaScript, Python, and Ruby.",
+        "context": "Development Languages",
+        "tags": ["languages", "development", "bot"]
+    },
+    {
+        "question": "How can I monitor my bot's performance?",
+        "answer": "You can monitor your bot's performance through the Pella.app dashboard, which provides real-time analytics and logs.",
+        "context": "Performance Monitoring",
+        "tags": ["monitoring", "performance", "analytics"]
+    },
+    {
+        "question": "Does Pella.app offer a free trial for premium features?",
+        "answer": "Yes, Pella.app occasionally offers free trials for users to test premium features before subscribing.",
+        "context": "Free Trial",
+        "tags": ["trial", "premium", "features"]
+    },
+    {
+        "question": "How can I get support for my bot?",
+        "answer": "You can get support through the Pella.app community forums, official documentation, or by contacting premium support.",
+        "context": "Support Channels",
+        "tags": ["support", "community", "documentation"]
+    },
+    {
+        "question": "What are the best practices for bot development?",
+        "answer": "Best practices include keeping your code organized, using version control, and thoroughly testing your bot before deployment.",
+        "context": "Best Practices",
+        "tags": ["best practices", "development", "testing"]
+    },
+    {
+        "question": "Can I use a database with my bot?",
+        "answer": "Yes, you can integrate databases like MongoDB or Firebase with your bot hosted on Pella.app.",
+        "context": "Database Integration",
+        "tags": ["database", "integration", "bot"]
+    },
+    {
+        "question": "What is the community like on Pella.app?",
+        "answer": "The Pella.app community is supportive and active, with many developers sharing tips, resources, and experiences.",
+        "context": "Community",
+        "tags": ["community", "supportive", "active"]
+    },
+    {
+        "question": "Can I schedule tasks for my bot?",
+        "answer": "Yes, you can schedule tasks using libraries like Node-Cron or built-in scheduling features in your bot's code.",
+        "context": "Task Scheduling",
+        "tags": ["scheduling", "tasks", "bot"]
+    },
+    {
+        "question": "What happens if my bot exceeds resource limits?",
+        "answer": "If your bot exceeds resource limits, it may experience performance issues or become temporarily unavailable until resources are freed.",
+        "context": "Resource Limits",
+        "tags": ["limits", "performance", "availability"]
+    },
+    {
+        "question": "Are there any community guidelines I should follow?",
+        "answer": "Yes, Pella.app has community guidelines to ensure a positive environment for all users. You can find them on their website.",
+        "context": "Community Guidelines",
+        "tags": ["guidelines", "community", "positivity"]
+    },
+    {
+        "question": "Can I get feedback on my bot from the community?",
+        "answer": "Yes, you can share your bot in community channels to get feedback and suggestions from other developers.",
+        "context": "Feedback",
+        "tags": ["feedback", "community", "development"]
+    },
+    {
+        "question": "How does Pella.app handle downtime?",
+        "answer": "Pella.app actively monitors their servers and informs users of any scheduled or unscheduled downtime through their status page.",
+        "context": "Downtime Management",
+        "tags": ["downtime", "management", "monitoring"]
+    },
+    {
+        "question": "Can I link my Pella.app account to multiple Discord servers?",
+        "answer": "Yes, you can link your Pella.app account to multiple Discord servers to manage bots across different communities.",
+        "context": "Account Linking",
+        "tags": ["account", "linking", "Discord"]
+    },
+    {
+        "question": "What kind of analytics can I view for my bot?",
+        "answer": "You can view analytics such as user engagement, command usage, and error logs to understand your bot's performance better.",
+        "context": "Analytics",
+        "tags": ["analytics", "performance", "usage"]
+    },
+    {
+        "question": "How often are server updates performed?",
+        "answer": "Pella.app regularly updates their servers to improve performance and security, with announcements made through their communication channels.",
+        "context": "Server Updates",
+        "tags": ["updates", "servers", "performance"]
+    },
+    {
+        "question": "Can I customize my bot's command prefix?",
+        "answer": "Yes, you can customize your bot's command prefix in the configuration settings within the Pella.app dashboard.",
+        "context": "Command Prefix",
+        "tags": ["customization", "commands", "prefix"]
+    },
+    {
+        "question": "Are there any tutorials available for using Pella.app?",
+        "answer": "Yes, Pella.app offers a range of tutorials and documentation to help users get started and make the most of their hosting experience.",
+        "context": "Tutorials",
+        "tags": ["tutorials", "documentation", "resources"]
+    },
+    {
+        "question": "How do I report an issue with my bot on Pella.app?",
+        "answer": "You can report issues through the support system on Pella.app, detailing the problem and any relevant information.",
+        "context": "Issue Reporting",
+        "tags": ["report", "issue", "support"]
+    },
+    {
+        "question": "Can I use webhooks with my bot on Pella.app?",
+        "answer": "Yes, you can set up webhooks to integrate with other services or trigger actions based on specific events in your bot.",
+        "context": "Webhook Integration",
+        "tags": ["webhooks", "integration", "bot"]
+    },
+    {
+        "question": "What is the refund policy for Pella.app?",
+        "answer": "Pella.app offers a refund policy for premium subscriptions within a certain time frame. Check their website for specific details.",
+        "context": "Refund Policy",
+        "tags": ["refund", "policy", "premium"]
+    },
+    {
+        "question": "How can I collaborate with other developers on Pella.app?",
+        "answer": "You can collaborate with other developers by sharing your bot's GitHub repository or by inviting them to your Pella.app project.",
+        "context": "Collaboration",
+        "tags": ["collaboration", "developers", "GitHub"]
+    },
+    {
+        "question": "Can I use Pella.app for personal projects?",
+        "answer": "Absolutely! Pella.app is perfect for personal projects, hobby bots, or anything you want to develop and test.",
+        "context": "Personal Projects",
+        "tags": ["personal", "projects", "hobby"]
+    },
+    {
+        "question": "What are the common errors I might encounter while hosting?",
+        "answer": "Common errors include issues with dependencies, API rate limits, and insufficient resources. Consult the troubleshooting guide for help.",
+        "context": "Common Errors",
+        "tags": ["errors", "common", "hosting"]
+    },
+    {
+        "question": "Does Pella.app support multi-language bots?",
+        "answer": "Yes, Pella.app supports multi-language bots, allowing you to create bots that can interact in different languages.",
+        "context": "Multi-Language Support",
+        "tags": ["multi-language", "support", "bots"]
+    },
+    {
+        "question": "How can I secure my bot hosted on Pella.app?",
+        "answer": "You can secure your bot by using environment variables for sensitive data, implementing proper access controls, and following security best practices.",
+        "context": "Bot Security",
+        "tags": ["security", "best practices", "data"]
+    },
+    {
+        "question": "Are there any community events or contests on Pella.app?",
+        "answer": "Pella.app occasionally hosts community events and contests to engage users and showcase innovative bot projects.",
+        "context": "Community Events",
+        "tags": ["events", "contests", "community"]
+    },
+    {
+        "question": "How can I enhance my bot's functionality?",
+        "answer": "You can enhance functionality by integrating APIs, using plugins, and continuously updating your bot with new features.",
+        "context": "Enhancing Functionality",
+        "tags": ["enhancement", "functionality", "plugins"]
+    },
+    {
+        "question": "What is the process for reporting abuse on Pella.app?",
+        "answer": "You can report abuse directly through the support portal, providing detailed information about the issue to assist in investigation.",
+        "context": "Reporting Abuse",
+        "tags": ["abuse", "reporting", "support"]
+    },
+    {
+        "question": "Can I use Pella.app to run a Minecraft server?",
+        "answer": "Yes, Pella.app provides hosting options for Minecraft servers, allowing you to create and manage your own game server.",
+        "context": "Minecraft Hosting",
+        "tags": ["Minecraft", "hosting", "game server"]
+    },
+    {
+        "question": "How do I migrate my bot from another platform to Pella.app?",
+        "answer": "To migrate your bot, you can export your code from the previous platform and import it into Pella.app via GitHub or as a .zip file.",
+        "context": "Migration",
+        "tags": ["migration", "platform", "import"]
+    },
+    {
+        "question": "What kind of feedback can I expect from the Pella.app community?",
+        "answer": "You can expect constructive feedback, suggestions for improvements, and encouragement from fellow developers in the Pella.app community.",
+        "context": "Community Feedback",
+        "tags": ["feedback", "community", "constructive"]
+    },
+    {
+        "question": "Does Pella.app have a mobile app?",
+        "answer": "Currently, Pella.app does not have a dedicated mobile app, but the website is mobile-friendly and accessible through mobile browsers.",
+        "context": "Mobile Access",
+        "tags": ["mobile", "access", "website"]
+    },
+    {
+        "question": "Can I create custom commands for my Discord bot on Pella.app?",
+        "answer": "Yes, you can create custom commands using your bot's programming language and deploy them on Pella.app.",
+        "context": "Custom Commands",
+        "tags": ["custom", "commands", "Discord"]
+    },
+    {
+        "question": "What resources are available for new developers on Pella.app?",
+        "answer": "New developers can access tutorials, documentation, community forums, and example projects to help them get started.",
+        "context": "Resources for Developers",
+        "tags": ["resources", "developers", "tutorials"]
+    },
+    {
+        "question": "How can I make my bot more engaging for users?",
+        "answer": "To make your bot engaging, consider adding interactive features, games, polls, and personalized responses based on user inputs.",
+        "context": "Engagement Strategies",
+        "tags": ["engagement", "strategies", "interactive"]
+    },
+    {
+        "question": "Can I connect my Pella.app account to Twitch or other streaming platforms?",
+        "answer": "Currently, Pella.app does not support direct integrations with Twitch or other streaming platforms, but you can develop a bot to interact with those platforms separately.",
+        "context": "Streaming Integration",
+        "tags": ["Twitch", "streaming", "integration"]
+    },
+    {
+        "question": "How can I keep my bot updated on Pella.app?",
+        "answer": "You can keep your bot updated by regularly checking for updates in the code, using version control, and deploying changes through the Pella.app dashboard.",
+        "context": "Bot Updates",
+        "tags": ["updates", "maintenance", "code"]
+    },
+    {
+        "question": "What are the requirements for running a Minecraft server on Pella.app?",
+        "answer": "To run a Minecraft server, you need to ensure your server is configured correctly and meets the platform's resource requirements.",
+        "context": "Minecraft Server Requirements",
+        "tags": ["Minecraft", "requirements", "server"]
+    },
+    {
+        "question": "Are there any known issues with Pella.app I should be aware of?",
+        "answer": "Occasionally, users may encounter issues related to server connectivity or performance. Check the status page for real-time updates.",
+        "context": "Known Issues",
+        "tags": ["issues", "status", "connectivity"]
+    },
+    {
+        "question": "Can I set up a chatbot using Pella.app?",
+        "answer": "Yes, you can create a chatbot using Pella.app to respond to user inquiries and automate interactions on your server.",
+        "context": "Chatbot Creation",
+        "tags": ["chatbot", "creation", "automation"]
+    },
+    {
+        "question": "What kind of payment methods are accepted on Pella.app?",
+        "answer": "Pella.app accepts various payment methods, including credit/debit cards and popular digital payment platforms.",
+        "context": "Payment Methods",
+        "tags": ["payment", "methods", "transactions"]
+    },
+    {
+        "question": "How can I improve my bot's response time?",
+        "answer": "Improving response time can be achieved by optimizing your code, using efficient algorithms, and minimizing API calls.",
+        "context": "Response Time Optimization",
+        "tags": ["response time", "optimization", "performance"]
+    },
+    {
+        "question": "Can I host multiple bots on a single Pella.app account?",
+        "answer": "Yes, you can host multiple bots under one account, allowing you to manage various projects from a single dashboard.",
+        "context": "Multiple Bot Hosting",
+        "tags": ["multiple", "bots", "hosting"]
+    },
+    {
+        "question": "What kind of community support does Pella.app offer?",
+        "answer": "Pella.app provides community support through forums, Discord channels, and user groups where developers can share tips and ask questions.",
+        "context": "Community Support",
+        "tags": ["support", "community", "forums"]
+    },
+    {
+        "question": "How do I set up permissions for my bot on Discord?",
+        "answer": "Permissions can be set up in the Discord developer portal, where you can assign roles and specify what your bot can do.",
+        "context": "Bot Permissions",
+        "tags": ["permissions", "Discord", "setup"]
+    },
+    {
+        "question": "Can I use Pella.app to host a game server for other games?",
+        "answer": "Pella.app primarily focuses on Discord bot hosting, but it may provide options for other game servers in the future.",
+        "context": "Game Server Hosting",
+        "tags": ["game", "server", "hosting"]
+    },
+    {
+        "question": "What security measures does Pella.app have in place?",
+        "answer": "Pella.app employs various security measures, including encryption, regular audits, and secure coding practices to protect user data.",
+        "context": "Security Measures",
+        "tags": ["security", "measures", "protection"]
+    },
+    {
+        "question": "How do I get started with Pella.app?",
+        "answer": "To get started, sign up for an account on Pella.app, explore the dashboard, and check out the available tutorials and resources.",
+        "context": "Getting Started",
+        "tags": ["getting started", "tutorials", "resources"]
+    },
+    {
+        "question": "Can I create a custom webhook for my bot?",
+        "answer": "Yes, you can create custom webhooks to receive real-time updates and integrate with other services on Pella.app.",
+        "context": "Custom Webhooks",
+        "tags": ["webhooks", "custom", "integration"]
+    },
+    {
+        "question": "What should I do if my bot goes offline?",
+        "answer": "If your bot goes offline, check the server status, review your code for issues, and consult the Pella.app support resources for troubleshooting.",
+        "context": "Bot Downtime",
+        "tags": ["downtime", "troubleshooting", "support"]
+    },
+    {
+        "question": "How can I test my bot before going live?",
+        "answer": "You can test your bot in a separate development environment or use staging channels on your Discord server before going live.",
+        "context": "Testing",
+        "tags": ["testing", "development", "live"]
+    },
+    {
+        "question": "Does Pella.app have a referral program?",
+        "answer": "Currently, Pella.app does not offer a referral program, but check back for updates on future offerings.",
+        "context": "Referral Program",
+        "tags": ["referral", "program", "offers"]
+    },
+    {
+        "question": "How can I provide feedback to Pella.app?",
+        "answer": "You can provide feedback through their support channels or community forums to help improve the platform.",
+        "context": "Feedback",
+        "tags": ["feedback", "support", "community"]
+    },
+    {
+        "question": "What programming languages can I use with Pella.app?",
+        "answer": "You can use a variety of programming languages, including JavaScript, Python, and TypeScript, to develop your bots on Pella.app.",
+        "context": "Programming Languages",
+        "tags": ["programming", "languages", "development"]
+    },
+    {
+        "question": "Can I automate tasks using my bot on Pella.app?",
+        "answer": "Yes, you can automate various tasks such as moderation, welcome messages, and event reminders using your bot.",
+        "context": "Task Automation",
+        "tags": ["automation", "tasks", "bot"]
+    },
+    {
+        "question": "What is the uptime guarantee for Pella.app?",
+        "answer": "Pella.app offers a 99.9% uptime guarantee, ensuring your bots are available and responsive for users.",
+        "context": "Uptime Guarantee",
+        "tags": ["uptime", "guarantee", "availability"]
+    },
+    {
+        "question": "How do I cancel my Pella.app subscription?",
+        "answer": "You can cancel your subscription by visiting the billing section of your Pella.app account and following the prompts.",
+        "context": "Subscription Cancellation",
+        "tags": ["cancellation", "subscription", "billing"]
+    },
+    {
+        "question": "What is the best way to learn about Pella.app?",
+        "answer": "The best way to learn about Pella.app is to explore their documentation, follow tutorials, and participate in community discussions.",
+        "context": "Learning",
+        "tags": ["learning", "documentation", "community"]
+    },
+    {
+        "question": "Can I integrate APIs with my bot on Pella.app?",
+        "answer": "Yes, you can integrate various APIs with your bot to enhance its functionality and interaction capabilities.",
+        "context": "API Integration",
+        "tags": ["API", "integration", "functionality"]
+    },
+    {
+        "question": "What types of bots can I create using Pella.app?",
+        "answer": "You can create various types of bots, including moderation bots, fun bots, utility bots, and more, tailored to your community's needs.",
+        "context": "Types of Bots",
+        "tags": ["types", "bots", "community"]
+    },
+    {
+        "question": "Does Pella.app offer customer support?",
+        "answer": "Yes, Pella.app offers customer support through their help center and community forums to assist users.",
+        "context": "Customer Support",
+        "tags": ["customer support", "help center", "forums"]
+    },
+    {
+        "question": "Can I use Pella.app to host a music bot?",
+        "answer": "Yes, Pella.app supports music bots, allowing you to create and manage bots that can play music in Discord voice channels.",
+        "context": "Music Bot Hosting",
+        "tags": ["music", "bot", "hosting"]
+    },
+    {
+        "question": "How can I optimize my bot for better performance?",
+        "answer": "Optimizing your bot can be achieved through code refactoring, reducing dependencies, and using efficient algorithms.",
+        "context": "Performance Optimization",
+        "tags": ["optimization", "performance", "code"]
+    },
+    {
+        "question": "What is the cost of hosting on Pella.app?",
+        "answer": "The cost of hosting on Pella.app varies depending on the plan you choose, with options for free and premium subscriptions.",
+        "context": "Cost of Hosting",
+        "tags": ["cost", "hosting", "plans"]
+    },
+    {
+        "question": "Can I create a role-based access system for my bot?",
+        "answer": "Yes, you can create a role-based access system to control permissions and features available to users based on their roles.",
+        "context": "Role-Based Access",
+        "tags": ["role-based", "access", "permissions"]
+    },
+    {
+        "question": "How can I gather user feedback on my bot?",
+        "answer": "You can gather user feedback through surveys, polls, and direct interactions in your Discord server.",
+        "context": "User Feedback",
+        "tags": ["feedback", "user", "surveys"]
+    },
+    {
+        "question": "What steps should I take if my bot is not responding?",
+        "answer": "If your bot is not responding, check its status, review your code for errors, and consult Pella.app's troubleshooting guide for solutions.",
+        "context": "Bot Response Issues",
+        "tags": ["response", "issues", "troubleshooting"]
+    },
+    {
+        "question": "Can I schedule messages with my bot on Pella.app?",
+        "answer": "Yes, you can schedule messages to be sent at specific times using your bot's functionality on Pella.app.",
+        "context": "Message Scheduling",
+        "tags": ["scheduling", "messages", "bot"]
+    },
+    {
+        "question": "How do I find community support for Pella.app?",
+        "answer": "You can find community support through Pella.app's forums, Discord servers, and social media channels where users gather to share tips.",
+        "context": "Community Support",
+        "tags": ["community", "support", "forums"]
+    },
+    {
+        "question": "Can I use Pella.app for large-scale bot hosting?",
+        "answer": "Yes, Pella.app is designed to support large-scale bot hosting, making it suitable for developers with extensive user bases.",
+        "context": "Large-Scale Hosting",
+        "tags": ["large-scale", "hosting", "support"]
+    },
+    {
+        "question": "What analytics features does Pella.app offer?",
+        "answer": "Pella.app offers analytics features to track your bot's performance, user engagement, and interaction metrics.",
+        "context": "Analytics Features",
+        "tags": ["analytics", "features", "performance"]
+    },
+    {
+        "question": "Can I create a bot that responds to specific keywords?",
+        "answer": "Yes, you can program your bot to respond to specific keywords or phrases based on user input.",
+        "context": "Keyword Response",
+        "tags": ["keywords", "response", "bot"]
+    },
+    {
+        "question": "How can I improve my bot's security?",
+        "answer": "You can improve your bot's security by implementing secure coding practices, regularly updating dependencies, and using proper authentication methods.",
+        "context": "Bot Security",
+        "tags": ["security", "improvement", "bot"]
+    },
+    {
+        "question": "What types of projects can I develop on Pella.app?",
+        "answer": "You can develop various projects on Pella.app, including Discord bots, automation tools, and integration applications.",
+        "context": "Project Types",
+        "tags": ["projects", "development", "tools"]
+    },
+    {
+        "question": "Can I monetize my bot hosted on Pella.app?",
+        "answer": "Yes, you can monetize your bot through donations, premium features, or by providing paid services to users.",
+        "context": "Bot Monetization",
+        "tags": ["monetization", "bot", "services"]
+    },
+    {
+        "question": "How do I handle user privacy on Pella.app?",
+        "answer": "To handle user privacy, ensure compliance with data protection regulations, implement privacy policies, and only collect necessary data.",
+        "context": "User Privacy",
+        "tags": ["privacy", "data", "protection"]
+    },
+    {
+        "question": "Can I create a custom bot dashboard on Pella.app?",
+        "answer": "Yes, you can create a custom dashboard for your bot to display metrics and statistics using the Pella.app features.",
+        "context": "Custom Dashboard",
+        "tags": ["custom", "dashboard", "metrics"]
+    },
+    {
+        "question": "What are the benefits of using Pella.app for bot hosting?",
+        "answer": "The benefits of using Pella.app include ease of use, community support, robust analytics, and flexible hosting options.",
+        "context": "Benefits of Pella.app",
+        "tags": ["benefits", "hosting", "community"]
+    }
+]
