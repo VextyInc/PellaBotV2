@@ -1,56 +1,47 @@
 import re
 from collections import defaultdict
-from transformers import pipeline
 
-# Pre-trained ML-based NSFW classifier
-classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
-
-# Comprehensive list of keywords and phrases for NSFW content
+# Comprehensive NSFW list
 NSFW_KEYWORDS = [
-    # Regular words and phrases
-    r'\bsex\b', r'\bporn\b', r'\bnaked\b', r'\bfuck\b', r'\bboobs\b', r'\bass\b', r'\bpenis\b',
-    r'\bcock\b', r'\btits\b', r'\bscrotum\b', r'\bmilf\b', r'onlyfans', r'explicit content'
+    r'\bsex\b', r'\bporn\b', r'\bnaked\b', r'\bfuck\b', r'\bboobs\b', r'\bvagina\b', 
+    r'\bcock\b', r'\btits\b', r'\bscrotum\b', r'\bmilf\b', r'onlyfans'
 ]
 
-# Advanced Regex patterns to detect character obfuscation
 OBFUSCATION_PATTERNS = [
-    r'p[o0]+rn', r'f[a@]+ck', r'b[i1]+tch', r's[e3]+x', r'd[i1]+ck', r'c[o0]+ck', r'a[s$]+s'
+    r'p[o0]+rn', r'f[a@]+ck', r'b[i1]+tch', r's[e3]+x', r'd[i1]+ck', r'c[o0]+ck', r'a[s$]+s',
+    r'n[a4]+ked', r'm[i1]+lf', r'b[o0]+ob[s$]', r'v[a@]+gina'
 ]
 
+# User offense tracker
 user_offense_count = defaultdict(int)
 OFFENSE_LIMIT = 3
 
 def contains_nsfw(content):
     """
-    Check if the given content contains any NSFW keywords or obfuscated patterns.
+    Check if content contains NSFW keywords or obfuscation patterns.
     """
+    # Check for explicit NSFW keywords
     for keyword in NSFW_KEYWORDS:
         if re.search(keyword, content, re.IGNORECASE):
             return True
 
+    # Check for common obfuscation patterns
     for pattern in OBFUSCATION_PATTERNS:
         if re.search(pattern, content, re.IGNORECASE):
             return True
 
-    return ml_nsfw_filter(content)
+    return False
 
-def ml_nsfw_filter(content):
+def check_for_offenses(message, author_id):
     """
-    Use a machine learning model to classify whether the content is NSFW.
-    Returns True if the content is inappropriate.
-    """
-    labels = ["NSFW", "SFW"]
-    result = classifier(content, candidate_labels=labels)
-    return result["labels"][0] == "NSFW"
-
-def check_for_offenses(message, user_id):
-    """
-    Increment offense count if a user violates the NSFW filter.
-    If the user exceeds the OFFENSE_LIMIT, trigger an action (e.g., ban or mute).
+    Analyze a message and warn the user if NSFW content is found.
     """
     if contains_nsfw(message.content):
-        user_offense_count[user_id] += 1
-        if user_offense_count[user_id] >= OFFENSE_LIMIT:
-            return "You have been warned multiple times for inappropriate content. You are now banned or muted."
-        return "This message contains inappropriate content and cannot be processed."
+        user_offense_count[author_id] += 1
+        
+        if user_offense_count[author_id] >= OFFENSE_LIMIT:
+            # Too many offenses, take action
+            return f"⚠️ {message.author.mention}, you have been warned for inappropriate language."
+        else:
+            return f"⚠️ {message.author.mention}, please refrain from using NSFW language."
     return None
