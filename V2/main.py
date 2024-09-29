@@ -67,7 +67,6 @@ async def on_message(message):
                 
                 if rl_memory["positive_feedback"] - rl_memory["negative_feedback"] >= IMPROVEMENT_THRESHOLD:
                     await update_model(datasets)  # Improve AI if it receives enough positive feedback
-                    
             else:
                 await message.channel.send("Could you give me more context so I can help answer your question?")
                 rl_memory["failed_answers"] += 1
