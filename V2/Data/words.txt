@@ -1,0 +1,3 @@
+Hi=hello
+How are you=fine, thank you!
+Bye=goodbye
